@@ -45,7 +45,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
 
         // WebSocket client library built on SwiftNIO
-        .package(url: "https://github.com/vapor/websocket-kit.git", from: "2.0.0-beta"),
+        .package(url: "https://github.com/vkill/vapor-websocket-kit.git", .branch("add-onpong")),
     ],
     targets: [
         // C helpers
